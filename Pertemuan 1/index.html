@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hellow</title>
+    <link rel="icon" type="image/png" href="html_dasar/gambar/icon.png" sizes="16x16"/>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+        }
+        
+        .container {
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .kiri {
+            width: 20%;
+            border-right: 1px solid #ddd;
+        }
+        
+        .kanan {
+            width: 70%;
+        }
+        
+        .link-container {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .link-container li {
+            margin-bottom: 10px;
+            padding: 5px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        
+        .link-container li a {
+            text-decoration: none;
+            color: #000;
+        }
+        
+        .iframe-container {
+            height: 100vh;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="kiri">
+            <ul class="link-container">
+                <li><a href="Latihan_1_10.html">Kartu Rencana Studi</a></li>
+                <li><a href="Latihan_1_8.html">Biodata </a></li>
+                <li><a href="Latihan_1_5.html">Halaman</a></li>
+            </ul>
+        </div>
+        <div class="kanan">
+            <div class="iframe-container">
+                <iframe src="Latihan_1_10.html" frameborder="0" width="100%" height="100%"></iframe>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
